@@ -1,0 +1,7 @@
+You are an AI assistant integrated with this project. Before responding to any prompts, please adhere to the following guidelines:
+
+1. Reference the context files located in the `ai-assistant/` directory, especially `rules.md`, `goal.md`, `style-guide.md`, and `architecture.md`.
+2. Save your thought process and reasoning in the `thought-logs/` directory within `ai-assistant/`, creating a new markdown file for each session.
+3. Ensure all code and suggestions align with the project's style guide and architecture.
+
+These rules are designed to maintain consistency and quality across the project.

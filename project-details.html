@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="project-details-container">
+        <div class="project-details-header">
+            <button id="back-button" class="back-button"><i class="fas fa-arrow-left"></i> Back</button>
+            <h1 id="project-title">Project Name</h1>
+        </div>
+
+        <div class="project-details-content">
+            <div class="project-details-main">
+                <div class="project-details-image">
+                    <img id="project-image" src="assets/images/projects-placeholder.png" alt="Project Image">
+                </div>
+                
+                <div class="project-details-info">
+                    <div class="project-description">
+                        <h2>Description</h2>
+                        <p id="project-description">Detailed project description will appear here.</p>
+                    </div>
+                    
+                    <div class="project-tech-stack">
+                        <h2>Technologies Used</h2>
+                        <div id="project-tags" class="tags">
+                            <!-- Tags will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-details-sections">
+                <div class="project-section">
+                    <h2>Features</h2>
+                    <ul id="project-features" class="feature-list">
+                        <!-- Features will be dynamically inserted here -->
+                    </ul>
+                </div>
+                
+                <div class="project-section">
+                    <h2>Challenge & Solution</h2>
+                    <p id="project-challenge">Challenge description will appear here.</p>
+                    <p id="project-solution">Solution description will appear here.</p>
+                </div>
+
+                <div class="project-section">
+                    <h2>Outcome & Learnings</h2>
+                    <p id="project-outcome">Project outcome will appear here.</p>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <h2>Project Links</h2>
+                <div class="project-buttons">
+                    <a id="demo-link" href="#" target="_blank" class="project-button"><i class="fas fa-eye"></i> Live Demo</a>
+                    <a id="code-link" href="#" target="_blank" class="project-button"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="project-details.js"></script>
+</body>
+</html> 
